@@ -3,21 +3,29 @@
   "version": "1.0.0",
   "description": "A WebGL-Based 3D Game Engine",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "NODE_ENV = production webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch",
+    "dev": "webpack-dev-server --progress --inline --hot --port 8080"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.2.2",
     "babel-preset-es2018": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.41.1",
-    "webpack-dev-server": "^3.8.2",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.0",
     "webpack-glsl-loader": "^1.0.1"
   },
   "dependencies": {
-    "@angular/cli": "^8.3.9",
-    "@babel/core": "^7.6.4"
+    "@angular/cli": "^8.3.29",
+    "@babel/core": "^7.12.10",
+    "webpack-cli": "^3.3.12",
+    "@types/core-js": "~2.5",
+    "@types/node": "~10.12",
+    "typescript": "~3.1"
   }
 }
