@@ -15,7 +15,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.2",
     "babel-preset-es2018": "^1.0.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "webpack-glsl-loader": "^1.0.1"
